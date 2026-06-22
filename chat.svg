@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360" fill="none" role="img" aria-label="Sina's chat intro">
+  <style>
+    text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    .pill { fill: #0b93f6; }
+    .t    { fill: #ffffff; font-size: 16px; }
+    .link { fill: #ffd24d; font-weight: 700; text-decoration: underline; }
+
+    .msg    { opacity: 0; }
+    .typing { opacity: 0; }
+
+    .typing.y1 { animation: t1 16s infinite; }
+    .typing.y2 { animation: t2 16s infinite; }
+    .typing.y3 { animation: t3 16s infinite; }
+    .typing.y4 { animation: t4 16s infinite; }
+    .typing.y5 { animation: t5 16s infinite; }
+    .typing.y6 { animation: t6 16s infinite; }
+
+    .msg.y1 { animation: m1 16s ease infinite; }
+    .msg.y2 { animation: m2 16s ease infinite; }
+    .msg.y3 { animation: m3 16s ease infinite; }
+    .msg.y4 { animation: m4 16s ease infinite; }
+    .msg.y5 { animation: m5 16s ease infinite; }
+    .msg.y6 { animation: m6 16s ease infinite; }
+
+    .dot  { animation: bounce 1.1s ease-in-out infinite; }
+    .dot2 { animation-delay: 0.15s; }
+    .dot3 { animation-delay: 0.30s; }
+
+    @keyframes bounce { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-4px)} }
+
+    @keyframes t1 { 0%,1.5%{opacity:0} 2.5%,8%{opacity:1} 9%,100%{opacity:0} }
+    @keyframes t2 { 0%,14%{opacity:0} 15%,20%{opacity:1} 21%,100%{opacity:0} }
+    @keyframes t3 { 0%,26%{opacity:0} 27%,32%{opacity:1} 33%,100%{opacity:0} }
+    @keyframes t4 { 0%,39%{opacity:0} 40%,45%{opacity:1} 46%,100%{opacity:0} }
+    @keyframes t5 { 0%,51%{opacity:0} 52%,57%{opacity:1} 58%,100%{opacity:0} }
+    @keyframes t6 { 0%,64%{opacity:0} 65%,70%{opacity:1} 71%,100%{opacity:0} }
+
+    @keyframes m1 { 0%,8%{opacity:0;transform:translateY(6px)} 10%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+    @keyframes m2 { 0%,20%{opacity:0;transform:translateY(6px)} 22%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+    @keyframes m3 { 0%,32%{opacity:0;transform:translateY(6px)} 34%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+    @keyframes m4 { 0%,45%{opacity:0;transform:translateY(6px)} 47%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+    @keyframes m5 { 0%,57%{opacity:0;transform:translateY(6px)} 59%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+    @keyframes m6 { 0%,70%{opacity:0;transform:translateY(6px)} 72%,96%{opacity:1;transform:translateY(0)} 99%,100%{opacity:0} }
+  </style>
+
+  <!-- ===== LINE 1  (center y = 42) ===== -->
+  <g class="typing y1">
+    <rect class="pill" x="20" y="20" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="42" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="42" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="42" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y1">
+    <rect class="pill" x="20" y="20" width="175" height="44" rx="18"/>
+    <text class="t" x="40" y="47">Heyoo! I'm Sina &#128075;</text>
+  </g>
+
+  <!-- ===== LINE 2  (center y = 100) ===== -->
+  <g class="typing y2">
+    <rect class="pill" x="20" y="78" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="100" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="100" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="100" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y2">
+    <rect class="pill" x="20" y="78" width="440" height="44" rx="18"/>
+    <text class="t" x="40" y="105">I'm a professional problem-untangler and solver</text>
+  </g>
+
+  <!-- ===== LINE 3  (center y = 158) ===== -->
+  <g class="typing y3">
+    <rect class="pill" x="20" y="136" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="158" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="158" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="158" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y3">
+    <rect class="pill" x="20" y="136" width="375" height="44" rx="18"/>
+    <text class="t" x="40" y="163">I sit in the juncture of Analytics and AI</text>
+  </g>
+
+  <!-- ===== LINE 4  (center y = 216) ===== -->
+  <g class="typing y4">
+    <rect class="pill" x="20" y="194" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="216" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="216" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="216" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y4">
+    <rect class="pill" x="20" y="194" width="385" height="44" rx="18"/>
+    <text class="t" x="40" y="221">Also, I built <tspan class="link">redpen</tspan> so prod stays clean</text>
+  </g>
+
+  <!-- ===== LINE 5  (center y = 274) ===== -->
+  <g class="typing y5">
+    <rect class="pill" x="20" y="252" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="274" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="274" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="274" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y5">
+    <rect class="pill" x="20" y="252" width="250" height="44" rx="18"/>
+    <text class="t" x="40" y="279">Thanks for stopping by!</text>
+  </g>
+
+  <!-- ===== LINE 6  (center y = 332) ===== -->
+  <g class="typing y6">
+    <rect class="pill" x="20" y="310" width="70" height="44" rx="18"/>
+    <circle class="dot"      cx="42" cy="332" r="5" fill="#fff"/>
+    <circle class="dot dot2" cx="58" cy="332" r="5" fill="#fff"/>
+    <circle class="dot dot3" cx="74" cy="332" r="5" fill="#fff"/>
+  </g>
+  <g class="msg y6">
+    <rect class="pill" x="20" y="310" width="250" height="44" rx="18"/>
+    <text class="t" x="40" y="337">Enjoy your <tspan id="day">Sunday</tspan>! &#127881;</text>
+  </g>
+</svg>
